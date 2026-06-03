@@ -7,12 +7,13 @@
     --blue-color: #53c7f0;
     --white-color: #ffffff;
     --black-color: #000000;
-
     /*Fonts*/
-
     --main-font-family: 'Saira', sans-serif;
     --secundary-font-family: 'Kanit', sans-serif;
-
+    /*Other Settings*/
+    --border-radius: 50px;
+    --letter-spacing: 2px;
+    --padding-section: 5rem; 
 
 }
 
@@ -20,6 +21,20 @@ body,
 a,
 html{
     font-family: var(--main-font-family);
+    letter-spacing: calc(var(--letter-spacing) - 1px);
+}
+
+.header{
+
+}
+
+.header__information{
+    max-width: 728px;
+}
+
+.header__information h2{
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 .custom-toggler{
